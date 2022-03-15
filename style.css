@@ -24,6 +24,10 @@ p {
     font-family: Cardillac;
 }
 
+.sizing {
+    width: 50%;
+}
+
 .width-adj {
     width: 37%;
 }
@@ -52,4 +56,53 @@ p {
 
 .black {
     background-color: black;
+}
+
+@media screen and (max-width: 1200px) {
+    .image {
+        width: 100%;
+    }
+    .descrp-img {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .sizing {
+        width: 100%;
+    }
+    .width-adj {
+        width: 50%;
+    }
+    .to-be-flexed {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .width-adj {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .width-adj {
+        width: 100%;
+    }
+    .top-space {
+        margin-top: 40px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    h1 {
+        font-size: 30px;
+    }
+}
+
+@media screen and (max-width: 368px) {
+    .last-head {
+        font-size: 19.8px;
+    }
 }
