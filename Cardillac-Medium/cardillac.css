@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Cardillac';
+    src: local('Cardillac Medium'), local('Cardillac-Medium'),
+        url('Cardillac-Medium.woff2') format('woff2'),
+        url('Cardillac-Medium.woff') format('woff'),
+        url('Cardillac-Medium.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+  }

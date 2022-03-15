@@ -1,0 +1,55 @@
+@import url("Cardillac-Medium/cardillac.css");
+h1 {
+    font-family: Cardillac;
+    font-size: 45px;
+}
+
+h2 {
+    font-family: Cardillac;
+    padding-top: 20px;
+}
+
+summary {
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+p {
+    font-size: 15px;
+    opacity: 0.5;
+}
+
+.btn {
+    border-radius: 0;
+    font-family: Cardillac;
+}
+
+.width-adj {
+    width: 37%;
+}
+
+.dis {
+    flex: 1;
+}
+
+.logo {
+    font-family: Cardillac;
+}
+
+.unique-background {
+    background-color: rgb(79, 90, 100);
+}
+
+.customise {
+    color: white;
+    opacity: 0.7;
+}
+
+.customise:hover {
+    color: white;
+    opacity: 0.5;
+}
+
+.black {
+    background-color: black;
+}
